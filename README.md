@@ -10,12 +10,3 @@
 
 node.jsのサンプルコードをforkしてとりあえず、Herokuにデプロイできました。 
  
- (2020/12/20）pycharmを導入した。「venv」（仮想環境を作成するためのモジュール）や「pip」（パッケージ管理ツール）、インタプリタの管理がめっちゃ楽。使い勝手よさそう。インタプリタとは、Pythonのコードを解釈して実行してくれるソフトウェアのことです。
- biopythonを入れて本格的にfastaが読めるような実装を目指す。
- 
-→pip install biopythonでbiopython入れた。なぜか上手くいかない。
-→numpyの最新版バージョンのせいだったらしい。ダウングレードしたら治った。(参考：https://qiita.com/bear_montblanc/items/b4b75dfd77da98076da5)
-
-pycharmとgithubをアクセストークン使って連携。
-biopytonの使い方(https://biomedicalhacks.com/2020-05-12/biopython-basic-1/)
-Genbank(.gb)のファイルは読めるようになった。
